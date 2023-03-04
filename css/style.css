@@ -16,16 +16,24 @@
     box-sizing: border-box;
 }
 
+.container{
+    /*width: 900px;*/
+    /*margin: 0 auto;*/
+}
+
 body {
     margin: 0;
     font: 18px GilroyMedium;
 
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family:GilroyBold, serif;
+}
+p{
     margin: 0;
 }
-
 .container {
     width: 900px;
     margin: 0 auto;
@@ -53,8 +61,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .intro {
-
-    height: 190px;
+    /*height: 190px;*/
 }
 
 .intro__content {
@@ -62,6 +69,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 15px 0;
 }
 
 .intro__content:last-child {
@@ -102,4 +110,49 @@ h1, h2, h3, h4, h5, h6, p {
     width: 20%;
 }
 
+.aboutMe{
+    margin: 50px auto;
+    height: 350px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    /*align-content: space-around;*/
+    /*align-items: center;*/
+    /*text-align: center;*/
+    justify-content: center;
+}
 
+.aboutMe__item{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills{
+    text-align: center;
+}
+.skills__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.skills__wrapper__item{
+    width: 150px;
+    height: 180px;
+
+    text-align: center;
+}
+
+.skill__logo{
+    height: 90px;
+    margin: 30px 30px 10px 30px;
+
+}
+
+.skill__text{
+    margin: 0 0;
+    font: 14px GilroyBold;
+}
+
+.skill__tittle{
+    margin-bottom: 50px;
+}
